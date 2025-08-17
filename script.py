@@ -5,7 +5,7 @@ hoje = date.today()
 
 agora = datetime.now()
 
-with open("dias.tct", "a", encoding="utf-8") as arquivo:
+with open("dias.txt", "a", encoding="utf-8") as arquivo:
     arquivo.write(f"\n{agora}")
 
 os.system('git add .')
